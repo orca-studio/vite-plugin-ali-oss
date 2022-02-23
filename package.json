@@ -1,12 +1,13 @@
 {
-	"name": "vite-plugin-ali-oss",
-	"version": "1.0.4",
+	"name": "@orca-studio/vite-plugin-ali-oss",
+	"version": "1.0.6",
 	"author": "xiaweiss",
 	"description": "Upload the production files bundled in the project to Ali OSS, except for html",
 	"homepage": "https://github.com/xiaweiss/vite-plugin-ali-oss",
 	"repository": "https://github.com/xiaweiss/vite-plugin-ali-oss",
 	"license": "MIT",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"keywords": [
 		"vite-plugin",
 		"ali-oss",

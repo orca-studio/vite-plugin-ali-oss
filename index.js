@@ -23,7 +23,7 @@ module.exports = function vitePluginAliOss (options) {
       buildConfig = config.build
     },
     async closeBundle () {
-      const outDirPath = path.resolve(normalizePath(buildConfig.outDir))
+      const outDirPath = path.resolve(normalizePath(buildConfig.outDir)).replace(/\\/g, '/')
       const {pathname: ossBasePath, origin: ossOrigin} = new URL(baseConfig)
 
       const createOssOption = Object.assign({}, options)
